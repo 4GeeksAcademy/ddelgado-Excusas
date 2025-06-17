@@ -1,5 +1,40 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+/* @import "bootstrap/dist/css/bootstrap.min.css"; */
 
-body{
-    background: white;
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-color: #f4f4f4;
+margin: 0;
+padding: 0;
+display: flex;
+height: 100vh;
+justify-content: center;
+align-items: center;
+}
+.container {
+text-align: center;
+background: white;
+padding: 2rem;
+border-radius: 16px;
+}
+
+h1 {
+margin-bottom: 1rem;
+}
+
+#excusa {
+font-size: 1.5rem;
+margin: 1 0;
+}
+
+button {
+padding: 0.5rem 1rem;
+font-size: 1rem;
+background-color: #0077ff;
+color: white;
+border: none;
+border-radius: 5px;
+}
+
+button:hover {
+background-color: #005bcc;
 }
